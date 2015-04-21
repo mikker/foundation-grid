@@ -1,0 +1,28 @@
+{
+  "name": "foundation-grid",
+  "version": "1.0.0",
+  "description": "Just the grid from ZURB's Foundation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node-sass grid.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikker/zurb-foundation-grid.git"
+  },
+  "keywords": [
+    "foundation",
+    "grid",
+    "scss"
+  ],
+  "author": "Mikkel Malmberg and ZURB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikker/zurb-foundation-grid/issues"
+  },
+  "homepage": "https://github.com/mikker/zurb-foundation-grid#readme",
+  "devDependencies": {
+    "nodemon": "*",
+    "node-sass": "*"
+  }
+}

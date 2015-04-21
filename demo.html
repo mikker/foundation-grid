@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tester</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+    <style type="text/css">
+      h1 {
+        text-align: center;
+      }
+      .row.display {
+        background: #eee;
+        font-size: 11px;
+        margin-bottom: 10px;
+        line-height: 2rem;
+        border: solid 1px #c6c6c6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid</h1>
+
+    <div class="display row">
+      <div class="small-1 columns">.small-1</div>
+      <div class="small-11 columns">.small-11</div>
+      <div class="small-2 columns">.small-2</div>
+      <div class="small-10 columns">.small-10</div>
+      <div class="small-3 columns">.small-3</div>
+      <div class="small-9 columns">.small-9</div>
+      <div class="small-4 columns">.small-4</div>
+      <div class="small-8 columns">.small-8</div>
+      <div class="small-5 columns">.small-5</div>
+      <div class="small-7 columns">.small-7</div>
+      <div class="small-6 columns">.small-6</div>
+      <div class="small-6 columns">.small-6</div>
+      <div class="small-7 columns">.small-7</div>
+      <div class="small-5 columns">.small-5</div>
+      <div class="small-8 columns">.small-8</div>
+      <div class="small-4 columns">.small-4</div>
+      <div class="small-9 columns">.small-9</div>
+      <div class="small-3 columns">.small-3</div>
+      <div class="small-10 columns">.small-10</div>
+      <div class="small-2 columns">.small-2</div>
+      <div class="small-11 columns">.small-11</div>
+      <div class="small-1 columns">.small-1</div>
+      <div class="small-12 columns">.small-12</div>
+    </div>
+
+    <div class="display row">
+      <div class="medium-1 columns">.medium-1</div>
+      <div class="medium-11 columns">.medium-11</div>
+      <div class="medium-3 columns">.medium-3</div>
+      <div class="medium-9 columns">.medium-9</div>
+      <div class="medium-5 columns">.medium-5</div>
+      <div class="medium-7 columns">.medium-7</div>
+      <div class="medium-7 columns">.medium-7</div>
+      <div class="medium-5 columns">.medium-5</div>
+      <div class="medium-9 columns">.medium-9</div>
+      <div class="medium-3 columns">.medium-3</div>
+      <div class="medium-11 columns">.medium-11</div>
+      <div class="medium-1 columns">.medium-1</div>
+    </div>
+
+    <div class="display row">
+      <div class="large-1 columns">.large-1</div>
+      <div class="large-11 columns">.large-11</div>
+      <div class="large-3 columns">.large-3</div>
+      <div class="large-9 columns">.large-9</div>
+      <div class="large-5 columns">.large-5</div>
+      <div class="large-7 columns">.large-7</div>
+      <div class="large-7 columns">.large-7</div>
+      <div class="large-5 columns">.large-5</div>
+      <div class="large-9 columns">.large-9</div>
+      <div class="large-3 columns">.large-3</div>
+      <div class="large-11 columns">.large-11</div>
+      <div class="large-1 columns">.large-1</div>
+    </div>
+
+    <div class="display row">
+      <div class="box small-6 small-centered columns">
+        .small-6 .small-centered
+        <div class="display row">
+          <div class="box small-8 columns">.small-8 nested</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="display row medium-uncollapse large-collapse">
+      <div class="small-6 columns">collapse on large</div>
+      <div class="small-6 columns">un-collapse on medium</div>
+    </div>
+
+    <div class="display row">
+      <div class="small-8 columns">8
+        <div class="row">
+          <div class="small-8 columns">8 Nested
+            <div class="row">
+              <div class="small-8 columns">8 Nested Again</div>
+              <div class="small-4 columns">4</div>
+            </div>
+          </div>
+          <div class="small-4 columns">4</div>
+        </div>
+      </div>
+      <div class="small-4 columns">4</div>
+    </div>
+
+  </body>
+</html>
